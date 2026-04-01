@@ -17,7 +17,7 @@ app.use(express.static('./public'));    /* Skapa global path till "public"-mappe
 
 var cookieParser = require('cookie-parser');
 app.use(cookieParser());
-
+//Test comment
 app.use(
     session({
     secret: 'thisisasecret',
